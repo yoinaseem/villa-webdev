@@ -1,0 +1,110 @@
+:root {
+    --primary-color: #fe9900; 
+    --secondary-color: #eee6d8; 
+    --accent-color: #fe9900; 
+    --dark-color: #1d1d1d; 
+  }
+
+@font-face {
+    font-family: AvenirNext;
+    src: url('../fonts/AvenirNextLTPro-Regular.otf');
+}
+
+@font-face {
+    font-family: AvenirNextB;
+    src: url('../fonts/AvenirNextLTPro-Bold.otf');
+}
+
+@font-face {
+    font-family: AvenirNextBC;
+    src: url('../fonts/AvenirNextLTPro-BoldCn.otf');
+}
+
+
+body {
+    font-family: 'AvenirNext';
+    color: #444444;
+}
+
+h1, h2 {
+    font-family: 'AvenirNextBC';
+}
+
+.bold {
+    font-family: 'AvenirNextB';
+}
+
+.bold-compact {
+    font-family: 'AvenirNextBC';
+}
+
+.primary-bg {
+    background-color: var(--primary-color);
+}
+
+.secondary-bg {
+    background-color: var(--secondary-color);
+}
+
+.accent-bg {
+    background-color: var(--accent-color);
+}
+
+.dark-bg {
+    background-color: var(--dark-color);
+}
+
+.primary-color {
+    color: var(--primary-color);
+}
+
+.secondary-color {
+    color: var(--secondary-color);
+}
+
+.accent-color {
+    color: var(--accent-color);
+}
+
+.dark-color {
+    color: var(--dark-color);
+}
+
+.full-width {
+    width: 100%;/
+    margin: 0 auto; 
+    padding: 0 15%;
+}
+
+.dyn-box {
+    width: 700px;
+    border-radius: 50px;
+}
+
+.dyn-box:hover {
+    background-color: #161616;
+}
+
+.nav-link {
+    color: #fafafa; 
+    /* animation css */
+    transition: font-size ease-in-out .2s;
+
+    /* GPU hack for smoothing */
+    transform: translateZ(0);
+    will-change: transform;
+}
+
+/* animated to css */
+.nav-link:hover {
+    color: var(--accent-color); 
+    font-size: 18px;
+}
+
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
