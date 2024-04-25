@@ -71,7 +71,7 @@ h1, h2 {
 }
 
 .full-width {
-    width: 100%;/
+    width: 100%;
     margin: 0 auto; 
     padding: 0 15%;
 }
@@ -82,8 +82,14 @@ h1, h2 {
 }
 
 .dyn-box:hover {
-    background-color: #161616;
+    background-color: #0c0c0c;
 }
+
+.dyn-box-sm {
+    /* max-width: 300px; */
+    border-radius: 50px;
+}
+
 
 .nav-link {
     color: #fafafa; 
