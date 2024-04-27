@@ -6,7 +6,9 @@
 
         <link rel="stylesheet" type="text/css" href="{{ asset('/css/bootstrap.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('/css/custom.css') }}">
+        <script src="https://kit.fontawesome.com/a457119d98.js" crossorigin="anonymous"></script>
 
+        
         <title>{{ $title ?? 'Page Title' }}</title>
         <link rel="icon" type="image/x-icon" href="{{ asset('/images/logo-light.png') }}">
 

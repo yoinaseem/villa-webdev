@@ -16,7 +16,7 @@
     <!-- Featured Carousel End -->
 
     <!-- Menu Hero Start -->
-    <div class="container my-5 mx-auto dark-bg dyn-box">
+    <div class="container box my-5 mx-auto dark-bg dyn-box rounded-3" style="width:50%">
         <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 text-center mx-auto rounded-3 shadow-lg">
             <div class="col-lg-10 p-3 p-lg-5 pt-lg-3 mx-auto dyn-text">
                 <h1 class="bold primary-color">HAVE YOU TRIED OUR BURGERS?</h1>
