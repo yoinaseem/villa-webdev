@@ -2,21 +2,21 @@
     <nav class="navbar navbar-expand-md">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item">
-            <a class="nav-link bold bg-dark mx-2 px-5 border-white border-2 rounded-2" href="#">Burgers <span class="sr-only">(current)</span></a>
+            <a class="nav-link bold bg-dark mx-2 px-5 border-white border-2 rounded-2" href="#burger">Burgers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link bold bg-dark mx-2 px-5 border-2 rounded-2" href="#">Sides <span class="sr-only">(current)</span></a>
+            <a class="nav-link bold bg-dark mx-2 px-5 border-2 rounded-2" " href="#side">Sides</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link bold bg-dark mx-2 px-5 border-2 rounded-2" href="#">Drinks <span class="sr-only">(current)</span></a>
+            <a class="nav-link bold bg-dark mx-2 px-5 border-2 rounded-2" href="#drink">Drinks</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link bold bg-dark mx-2 px-5 border-2 rounded-2" href="#">Extras <span class="sr-only">(current)</span></a>
+            <a class="nav-link bold bg-dark mx-2 px-5 border-2 rounded-2" href="#extra">Extras</a>
           </li>
         </ul>
     </nav>
 
-    <div class="row full-width pt-5">
+    <div class="row full-width pt-5" id="burger">
         <h1 class="display-3 text-center">BURGERS</h1>
         @foreach ($menu as $burger)
             @if ($burger->category == "burger") 
@@ -51,7 +51,7 @@
         @endforeach
     </div>
 
-    <div class="row full-width pt-5">
+    <div class="row full-width pt-5" id="side">
         <h1 class="display-3 text-center">SIDES</h1>
 
         @foreach ($menu as $side)

@@ -11,3 +11,15 @@ function open_modal(name, image_name, price){
 function close_modal(){
     $('#menuModal').toggle();
 }
+
+function increment(){
+    
+}
+
+function decrement(){
+
+}
+
+function calc_price(){
+
+}
