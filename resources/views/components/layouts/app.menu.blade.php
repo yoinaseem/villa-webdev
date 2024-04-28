@@ -7,7 +7,7 @@
         <link rel="stylesheet" type="text/css" href="{{ asset('/css/bootstrap.css') }}">
         <link rel="stylesheet" type="text/css" href="{{ asset('/css/custom.css') }}">
         <script src="https://kit.fontawesome.com/a457119d98.js" crossorigin="anonymous"></script>
-        @livewireStyles
+
         
         <title>{{ $title ?? 'Page Title' }}</title>
         <link rel="icon" type="image/x-icon" href="{{ asset('/images/logo-light.png') }}">
@@ -38,6 +38,7 @@
         </header>
 
         <main>
+            <h1>HI</h1>
         {{ $slot }}
         </main>
     
@@ -53,7 +54,6 @@
         <script src="{{ asset('js/jquery.min.js') }}"></script>
         <script src="{{ asset('/js/bootstrap.bundle.min.js') }}"></script>
         <!-- <script src="{{ asset('/js/scripts.js') }}"></script> -->
-        @livewireScripts
     </body>
 
 </html>
